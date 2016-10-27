@@ -1,0 +1,21 @@
+{
+    "name": "rudymas/html5",
+    "description": "PHP class to create HTML5 tags",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Rudy Mas",
+            "email": "rudy.mas@rudymas.be"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">= 5.4.0 || >= 7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"RudyMas\\HTML5\\": "src/"
+		}
+	}
+}
