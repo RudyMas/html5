@@ -2,15 +2,16 @@
 namespace RudyMas\HTML5;
 
 /**
- *    class Forms (Version PHP7)
+ * Class Forms (Version PHP7)
  *
- *    This class is an extention of the HTML5 class.
- *    You can use this class to create forms.
+ * This class is an extention of the HTML5 class.
+ * You can use this class to create forms.
  *
  * @author        Rudy Mas <rudy.mas@rudymas.be>
  * @copyright    2016, rudymas.be. (http://www.rudymas.be/)
  * @license        https://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3 (GPL-3.0)
  * @version        1.0.0
+ * @package     RudyMas\HTML5
  */
 class Forms extends HTML5
 {
