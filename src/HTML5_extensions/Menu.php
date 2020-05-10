@@ -1,5 +1,8 @@
 <?php
-namespace RudyMas\HTML5;
+
+namespace RudyMas\HTML5_extensions;
+
+use RudyMas\HTML5;
 
 /**
  * Class Menu (Version PHP7)
@@ -10,11 +13,11 @@ namespace RudyMas\HTML5;
  * $menu = new Menu($maxMenuItems);
  * $maxMenuItems = The number of menu items allowed. (Default = 15)
  *
- * @author      Rudy Mas <rudy.mas@rudymas.be>
- * @copyright   2016, rudymas.be. (http://www.rudymas.be/)
- * @license     https://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3 (GPL-3.0)
- * @version     1.0.0
- * @package     RudyMas\HTML5
+ * @author Rudy Mas <rudy.mas@rudymas.be>
+ * @copyright 2016-2020, rudymas.be. (http://www.rudymas.be/)
+ * @license https://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3 (GPL-3.0)
+ * @version 1.0.1.0
+ * @package RudyMas\HTML5_extensions
  */
 class Menu extends HTML5
 {
@@ -220,4 +223,3 @@ class Menu extends HTML5
         return $max_depth;
     }
 }
-/** End of File: Menu.php **/

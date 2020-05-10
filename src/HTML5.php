@@ -1,5 +1,6 @@
 <?php
-namespace RudyMas\HTML5;
+
+namespace RudyMas;
 
 /**
  *    Class HTML5 (Creating a HTML5 page with PHP code)
@@ -14,10 +15,10 @@ namespace RudyMas\HTML5;
  *    This is done, so you can extend this class to other classes.
  *
  * @author      Rudy Mas <rudy.mas@rudymas.be>
- * @copyright   2014-2016, rudymas.be. (http://www.rudymas.be/)
+ * @copyright   2014-2020, rudymas.be. (http://www.rudymas.be/)
  * @license     https://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3 (GPL-3.0)
- * @version     1.0.0
- * @package     RudyMas\HTML5
+ * @version     1.0.1.0
+ * @package     RudyMas
  */
 class HTML5
 {
@@ -76,10 +77,17 @@ class HTML5
      * @param string $charset Character set to be used (Default = utf-8)
      * @return string $output
      */
-    public function head($action, $title = 'Title Website/Page', $author = 'First- Lastname',
-                         $email = 'name@website.com', $keywords = 'keywords, for, search, engine',
-                         $description = 'Short description website', $robots = 'index,follow',
-                         $rating = 'General', $charset = 'utf-8')
+    public function head
+    (
+        $action, $title = 'Title Website/Page',
+        $author = 'First- Lastname',
+        $email = 'name@website.com',
+        $keywords = 'keywords, for, search, engine',
+        $description = 'Short description website',
+        $robots = 'index,follow',
+        $rating = 'General',
+        $charset = 'utf-8'
+    )
     {
         switch (strtolower($action)) {
             case 'open':
@@ -538,7 +546,7 @@ class HTML5
      */
     public function bdo($action, $id = '', $class = '', $attributes = '', $dir = 'ltr', $input = '')
     {
-        if (!($dir == 'ltr' OR $dir == 'rtl')) $dir = 'ltr';
+        if (!($dir == 'ltr' or $dir == 'rtl')) $dir = 'ltr';
         switch (strtolower($action)) {
             case 'open':
             case 'start':
@@ -3532,4 +3540,3 @@ class HTML5
         return $output;
     }
 }
-/** End of File: HTML5.php **/

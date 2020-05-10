@@ -2,7 +2,7 @@
     "name": "rudymas/html5",
     "description": "PHP class to create HTML5 tags",
     "type": "library",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Rudy Mas",
@@ -15,7 +15,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"RudyMas\\HTML5\\": "src/"
+			"RudyMas\\": "src/"
 		}
 	}
 }
